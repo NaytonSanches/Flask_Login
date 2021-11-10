@@ -47,3 +47,17 @@ Este projeto está sob a licença MIT.
 ## Autor
 
 Mateus Souza de Jesus, formado em Analise e Desenvolvimento de Sistemas, pelo Centro Universitário Leonardo da Vinci. Estudo a linguagem Python, e também ciência de dados.
+
+## Rodar a aplicação
+
+### pelo CMD:
+set FLASK_APP=project
+flask run
+
+### pelo Bash
+export FLASK_APP=project
+flask run
+
+### pelo Paowershell
+env:FLASK_APP = "project"
+flask run
