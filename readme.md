@@ -52,12 +52,15 @@ Mateus Souza de Jesus, formado em Analise e Desenvolvimento de Sistemas, pelo Ce
 
 ### pelo CMD:
 set FLASK_APP=project
+
 flask run
 
 ### pelo Bash
 export FLASK_APP=project
+
 flask run
 
 ### pelo Paowershell
 env:FLASK_APP = "project"
+
 flask run
